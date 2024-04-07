@@ -1,0 +1,151 @@
+body {
+    /* background-image: url('/images/1.png'),linear-gradient(to bottom, #ffffff, #f0f0f0);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center; */
+    margin: 0;
+  padding: 0;
+  background-color: #333; /* Dark gray background */
+  color: #fff;
+  
+}
+#container{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;;
+    display: flex;
+    flex-direction: column;
+
+}
+#logoId {
+
+  margin: auto;
+}
+
+#logoId img{
+  width:100px;
+  height: 100px;
+  float: left;
+}
+#buttonDiv{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+#startGame {
+   justify-content: center;
+   align-items: center;
+}
+button{
+    background-color: #bd1655;
+    margin: 10px;
+    border-radius: 5px; 
+    width: 200px; 
+    padding: 10px; 
+    color: #ffffff;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5E0330 ;
+    cursor: pointer;
+    
+}
+.button.active{
+  background-color: green ;
+    cursor: pointer;
+}
+.text-name{
+    padding: 2%;
+}
+#username-form-container{
+    display:inline-block;
+    /* margin-top: 15%; */
+  }
+  input{
+    width: 200px;
+    height: 30px;
+    margin: 2%;
+  }
+  .empty-name{
+    color: lightgrey;
+  }
+  .card:hover{
+    cursor: pointer;
+  }
+  #container, #weapon-div{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:#bd1655;  */
+    /* color: #ffffff; */
+    padding-left: 2%;
+    padding-right: 2%;
+    top: 0;
+    
+  }
+  #balance{
+    float: left;
+    padding-right: 2%;
+  }
+  #headerWeapon{
+    padding-left: 2%;
+  }
+  #containerWeapon{
+    display: flex;
+  }
+  #typeWeapon{
+    width: 375px;
+  }
+  #weaponRender{
+    width: 61.8%;
+  }
+  #weaponType{
+    display: flex;
+    flex-direction: column;
+  }
+  .agent-list{
+    /* scroll-behavior: auto; */
+  }
+  #agents {
+    display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 6
+  00px; 
+  }
+  .card{
+    height: 300px;
+    width: 300px; /* Set a fixed height for the card */
+    padding: 2%;
+    margin: 2%;
+  }  
+  
+  .skinButton{
+    background-color: #248f87;
+    cursor: pointer;
+  }
+  .skinButton:hover{
+    background-color: #dd822f;
+    cursor: pointer;
+  }
+  #weaponContainer{
+    display: flex;
+    flex-direction: row;
+  }
+  /* selected Agent */
+  #divSelectedAgent{
+    display: flex;
+    flex-direction: row;
+  }
+  #weaponCard{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #imgSelectedeWeapon{
+    width: 100px;
+    height: 100px;
+
+  }
